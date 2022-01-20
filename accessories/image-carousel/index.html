@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carousel</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous"/>
   </head>
   <body>
     <div class="carousel">
 
-      <button class="carousel_button button-left is-hidden">
-          Left
-      </button>
+      <button class="carousel_button button-left is-hidden"><i class="fas fa-chevron-left"></i></button>
       <div class="carousel_track-container">
           <ul class="carousel_track">
-              <li class="carousel_slide current-slide">
+              <li class="carousel_slide current-slide first_img">
                 <img class="carousel_image" src="flower.jpg">
               </li>
               <li class="carousel_slide">
@@ -26,12 +25,10 @@
               </li>
           </ul>
       </div>
-      <button class="carousel_button button-right">
-          Right
-      </button>
+      <button class="carousel_button button-right"><i class="fas fa-chevron-right"></i></button>
 
       <div class="carousel_nav">
-        <button class="carousel_indicator current-slide"></button>
+        <button class="carousel_indicator current-slide first_dot"></button>
         <button class="carousel_indicator"></button>
         <button class="carousel_indicator"></button>
       </div>

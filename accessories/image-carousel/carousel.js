@@ -42,7 +42,6 @@ const hideButtons = (slides, prevButton, nextButton, targetIndex) => {
     }
 }
 
-
 // Move slide to the right when click right
 nextButton.addEventListener('click', e =>{
     //why not 'document' instead of 'track'?
